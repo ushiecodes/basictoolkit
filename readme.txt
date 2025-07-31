@@ -31,3 +31,10 @@ git config --global user.name "name"
 git config --global user.email "email"
 
 credential manager
+
+git remote add origin "reposistory link" intermediate phase between your local repository and remote repository (github)
+git remote -v : will show u the commits
+
+to push the intermediate commit to staging area:
+gir push --set-upstream origin master
+
