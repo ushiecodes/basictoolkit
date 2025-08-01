@@ -34,11 +34,11 @@ git config --global user.email "email"
 
 credential manager
 
-git remote add origin "reposistory link" intermediate phase between your local repository and remote repository (github)
+git add origin "reposistory link" intermediate phase between your local repository and remote repository (github)
 git remote -v : will show u the link to the commits
 
 to push the intermediate commit to staging area:
-gir push --set-upstream origin master
+git push --set-upstream origin master
 
 #class 2 - 01/08/25
 
