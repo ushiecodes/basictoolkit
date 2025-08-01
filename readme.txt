@@ -38,3 +38,15 @@ git remote -v : will show u the link to the commits
 to push the intermediate commit to staging area:
 gir push --set-upstream origin master
 
+#class 2 - 01/08/25
+
+adding multiple files using git add
+git add .
+
+adding only a subfolder using git add
+git add "foldername"/
+
+.gitignore - will ignore any file you dont want to push on git
+
+example: mention the name of the file or use "foldername"/ to indicate that this is a folder and needs to be ignored
+
