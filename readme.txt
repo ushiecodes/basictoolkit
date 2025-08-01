@@ -50,5 +50,11 @@ git add "foldername"/
 
 .gitignore - will ignore any file you dont want to push on git
 
-example: mention the name of the file or use "foldername"/ to indicate that this is a folder and needs to be ignored
+example: 
+file - secret.js (needs to be in gitignore)
+gitignore - mention the file name
+push the commit and it wont show the ignored file
+
+mention the name of the file or use "foldername"/ to indicate that this is a folder and needs to be ignored
+basically if you are committing multiple files except a few in that selection, adding the name or subfolder in gitignore will not push it to the repository
 
